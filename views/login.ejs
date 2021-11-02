@@ -1,0 +1,50 @@
+<%- include ('partials/header.ejs') %>
+
+    <body>
+
+        <section class="section">
+            <div class="container">
+                <form class="box">
+                    <div class="field">
+                        <label class="label">Usuário</label>
+                        <div class="control">
+                            <input class="input" type="text" name="username" id="usernames"
+                                placeholder="Digite aqui seu usuário.">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Senha</label>
+                        <div class="control">
+                            <input class="input" type="password" name="password" placeholder="********">
+                        </div>
+                    </div>
+
+                    <button class="button is-primary">Logar</button>
+                </form>
+            </div>
+
+        </section>
+
+
+        <style>
+            .box {
+                background-color: #6c757d;
+                border-radius: 6 px;
+                box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+                color: #4a4a4a;
+                display: block;
+                padding: 1.25 rem;
+                margin-top: 22%;
+                width: 42%;
+                margin-left: 30%;
+            }
+        </style>
+
+
+
+
+
+    </body>
+
+    <%- include ('partials/footer.ejs') %>
